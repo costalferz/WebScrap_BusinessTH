@@ -1,0 +1,65 @@
+{
+    "metadata": {
+        "data_type": "ข้อมูลสถิติ",
+        "title": "รายชื่อผู้ประกอบการธุรกิจ",
+        "owner_org": "Dataforthai",
+        "maintainer ": "",
+        "maintainer_email": "",
+        "tag_string": [
+            "รายชื่อผู้ประกอบการธุรกิจ",
+            "Entrepreneur"
+        ],
+        "notes": "",
+        "objective": [
+            "ไม่ทราบ"
+        ],
+        "update_frequency_unit": "month",
+        "update_frequency_interval": "1",
+        "geo_coverage": "ประเทศ",
+        "data_source": " https://www.dataforthai.com/business/objective",
+        "data_format": [
+            "CSV"
+        ],
+        "data_category": "ข้อมูลสาธารณะ",
+        "right_of_usage": "License not specified"
+    },
+    "reference_url": "ดาวน์โหลดจาก https://www.dataforthai.com/business/objective",
+    "parents": [],
+    "schema": [
+        {
+            "field": "ชื่อผู้ประกอบการ",
+            "type": "CharField",
+            "description": "รายชื่อผู้ประกอบการธุรกิจ"
+        },
+        {
+            "field": "ทุนจดทะเบียน",
+            "type": "CharField",
+            "description": "ทุนจดทะเบียนก่อตั้งธุรกิจ"
+        },
+        {
+            "field": "อำเภอ",
+            "type": "CharField",
+            "description": "อำเภอที่ตั้งธุรกิจ"
+        },
+        {
+            "field": "จังหวัด",
+            "type": "CharField",
+            "description": "จัดหวัดที่ตั้งธุรกิจ"
+        },
+        {
+            "field": "รหัส",
+            "type": "CharField",
+            "description": "รหัสแยกประเภทธุรกิจ"
+        },
+        {
+            "field": "ประเภทธุรกิจ",
+            "type": "FloatField",
+            "description": "ประเภทของธุรกิจต่างๆ ที่จัดตั้ง"
+        },
+        {
+            "field": "timestamp",
+            "type": "DateField",
+            "description": "เวลาขณะที่ดึงข้อมูล"
+        },
+    ]
+}
